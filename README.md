@@ -8,11 +8,19 @@ A GraphQL API for managing a car warehouse, with data for users and thier cars.
 * MySQL
 
 ## Setup
-Start the service using the following command:
+1. Setup .env File
+```
+MYSQL_USER=root
+MYSQL_PASSWORD=password
+JWT_SECRET=s3cr3t
+```
 
-`nodemon server.js`
+2. Start Service
+```
+nodemon server.js
+```
 
-Connect to the GraphQL Playground located here http://localhost:3000/graphql.
+3. Open GraphQL Playground - http://localhost:3000/graphql
 
 ## Queries
 
